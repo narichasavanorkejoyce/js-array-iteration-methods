@@ -6,6 +6,11 @@ const map = require('../lib/map.js')
 
 const workingArray = examples.numbers.whole
 
-const result = map(workingArray, (e, i, a) => e + 1)
+const transform = function (e, i, a) {
+  return e * 2
+}
+
+// const result = map(workingArray, (e, i, a) => e + 1)
+const result = workingArray.map(transform)
 
 console.log('map result', result)
