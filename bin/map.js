@@ -7,7 +7,7 @@ const map = require('../lib/map.js')
 const workingArray = examples.numbers.whole
 
 const transform = function (e, i, a) {
-  return e * 2
+  return e * 3
 }
 
 // const result = map(workingArray, (e, i, a) => e + 1)
