@@ -10,4 +10,4 @@ const workingArray = examples.numbers.whole
 // take three formal parameters
 // then it does something
 // this is what becomes 'callback'
-forEach(workingArray, (e, i, a) => { console.log(e, i, a === workingArray) })
+forEach(workingArray, (e, i, a) => { console.log(e, i, a) === workingArray })
