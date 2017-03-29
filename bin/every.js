@@ -6,6 +6,6 @@ const every = require('../lib/every.js')
 
 const workingArray = examples.numbers.whole
 
-const result = every(workingArray, (e, i, a) => e > 0)
+const result = every(workingArray, (e, i, a) => e % 1 === 0)
 
 console.log('every result', result)
